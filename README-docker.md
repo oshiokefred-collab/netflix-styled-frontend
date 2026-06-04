@@ -263,6 +263,9 @@ mongoimport --uri="mongodb+srv://USERNAME:PASSWORD@cluster.xxxxx.mongodb.net/mov
 
 - Backend: https://github.com/oshiokefred-collab/netflix-styled-backend
 - Frontend: https://github.com/oshiokefred-collab/netflix-styled-frontend
+  
+## Here are screenshoots from the project
+https://drive.google.com/drive/folders/1cog2fs5IZ1cnexMf4OB1BA6Y83PnvqG0?usp=sharing
 
 ---
 
