@@ -310,6 +310,8 @@ This is the third stage in a deliberate progression of the same application:
 - Add monitoring with Prometheus and Grafana.
 
 ---
+## Here are screenshoots from the project
+https://drive.google.com/drive/folders/16o34D6SDZhkjvBU3dopygTidkcP6IBwV?usp=sharing
 
 ## Repository Links
 
