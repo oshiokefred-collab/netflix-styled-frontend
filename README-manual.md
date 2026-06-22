@@ -12,32 +12,8 @@ A Netflix-inspired movie review platform where users can browse movies and leave
 
 ## Architecture
 
-```
-User / Browser
-      │
-      │ port 3000
-      ▼
-┌─────────────────────────────┐
-│     Frontend Server          │
-│  React · Node.js 20          │
-│  44.222.255.13               │
-└─────────────┬───────────────┘
-              │ port 8080 (REST API)
-              ▼
-┌─────────────────────────────┐
-│     Backend Server           │
-│  Java 17 · Spring Boot       │
-│  Maven · 13.222.129.187      │
-└─────────────┬───────────────┘
-              │ port 27017 (MongoDB driver)
-              ▼
-┌─────────────────────────────┐
-│     Database Server          │
-│  MongoDB 7.0                 │
-│  Authentication enabled      │
-│  34.201.149.181              │
-└─────────────────────────────┘
-```
+<img width="1024" height="1536" alt="ChatGPT Image Jun 18, 2026, 08_59_48 AM" src="https://github.com/user-attachments/assets/3e256d4e-a722-461d-9a59-cd4beacc24c5" />
+
 
 ---
 

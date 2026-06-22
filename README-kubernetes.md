@@ -18,33 +18,8 @@ Following a fundamentals-first learning approach, this deployment uses K3s, a li
 
 ## Architecture
 
-```
-                MongoDB Atlas (cloud cluster)
-                          ▲
-                          │ mongodb+srv connection (Kubernetes secret)
-                          │
-        ┌─────────────────────────────────────────┐
-        │   Single EC2 Instance (K3s cluster)      │
-        │                                          │
-        │   ┌────────────────────────────────┐     │
-        │   │  netflix-backend Deployment     │     │
-        │   │  (pod, port 8080)               │     │
-        │   │  Service: NodePort 30080        │     │
-        │   └────────────────────────────────┘     │
-        │                                          │
-        │   ┌────────────────────────────────┐     │
-        │   │  netflix-frontend Deployment    │     │
-        │   │  (pod, port 3000)               │     │
-        │   │  Service: NodePort 30000        │     │
-        │   └────────────────────────────────┘     │
-        │                                          │
-        │   Images pulled from ECR via ecr-secret  │
-        └─────────────────────────────────────────┘
-                          ▲
-                          │ docker pull (imagePullSecrets)
-                          │
-                   AWS ECR (image registry)
-```
+<img width="1536" height="1024" alt="ChatGPT Image Jun 18, 2026, 08_53_40 AM" src="https://github.com/user-attachments/assets/2c0d5393-c129-4565-8260-ab015d52339d" />
+
 
 ---
 
@@ -310,6 +285,8 @@ This is the third stage in a deliberate progression of the same application:
 - Add monitoring with Prometheus and Grafana.
 
 ---
+## Here are screenshoots from the project
+https://drive.google.com/drive/folders/16o34D6SDZhkjvBU3dopygTidkcP6IBwV?usp=sharing
 
 ## Repository Links
 

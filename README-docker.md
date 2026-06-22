@@ -12,30 +12,8 @@ A Netflix-inspired movie review platform where users can browse movies and leave
 
 ## Architecture
 
-```
-                MongoDB Atlas (cloud cluster)
-                          ▲
-                          │ connection string (injected via GitHub Secret)
-                          │
-            ┌─────────────────────────────┐
-            │      AWS EC2 Server          │
-            │                              │
-            │  Backend container (8080)    │
-            │  Frontend container (3000)   │
-            └─────────────────────────────┘
-                          ▲
-                          │ docker pull
-                          │
-                   AWS ECR (image registry)
-                          ▲
-                          │ docker push
-                          │
-              GitHub Actions CI/CD Pipeline
-                          ▲
-                          │ git push
-                          │
-                     Source Code (GitHub)
-```
+<img width="1024" height="1536" alt="ChatGPT Image Jun 18, 2026, 08_57_13 AM" src="https://github.com/user-attachments/assets/8f1667ee-d9e3-415e-93b3-f0e73acc1c38" />
+
 
 ---
 
