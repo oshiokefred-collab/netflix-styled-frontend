@@ -270,28 +270,16 @@ Open the frontend load balancer DNS name in a browser (over http) to view the li
 ---
 
 ## Screenshots
+<img width="650" height="89" alt="eks 0" src="https://github.com/user-attachments/assets/bd891f49-08e5-43a5-b5eb-3dc2c7782e94" />
+<img width="949" height="383" alt="eks 9" src="https://github.com/user-attachments/assets/8bf6c015-e3cc-45bd-a136-d9c85afa65e4" />
+<img width="688" height="151" alt="eks 8" src="https://github.com/user-attachments/assets/7ecd8eea-1514-4f10-8ffd-efbea88c427d" />
+<img width="960" height="130" alt="eks 7" src="https://github.com/user-attachments/assets/c412f568-32bb-4e56-945e-35379cb712bc" />
+<img width="960" height="76" alt="eks 6" src="https://github.com/user-attachments/assets/e071d996-c02e-48bd-8f27-a66dbdaa0bd1" />
+<img width="829" height="85" alt="eks 5" src="https://github.com/user-attachments/assets/450a3fc2-c02c-41f0-87ce-1148a27c014c" />
+<img width="472" height="110" alt="eks 4" src="https://github.com/user-attachments/assets/2880e5cc-47ca-4760-8d75-365fa97c49f4" />
+<img width="945" height="291" alt="eks 3" src="https://github.com/user-attachments/assets/d1f1e8e8-fd53-40f1-bfbe-674e20e16355" />
+<img width="960" height="298" alt="eks 1" src="https://github.com/user-attachments/assets/2c1b77c9-7c82-4d58-9539-ccc09ffa6e73" />
 
-Add captured screenshots here as evidence of the working deployment. Save them in a folder (for example `screenshots/`) and reference them with the markdown image syntax.
-
-### Cluster Nodes
-<!-- kubectl get nodes showing two EKS worker nodes Ready -->
-`![EKS worker nodes](screenshots/get-nodes.png)`
-
-### Services with LoadBalancer Endpoints
-<!-- kubectl get svc showing both LoadBalancer services and their AWS DNS names -->
-`![LoadBalancer services](screenshots/get-svc.png)`
-
-### Running Pods
-<!-- kubectl get pods showing frontend and backend Running -->
-`![Running pods](screenshots/get-pods.png)`
-
-### Live Application
-<!-- The Netflix-styled site loaded in the browser via the frontend load balancer -->
-`![Live site on EKS](screenshots/live-site.png)`
-
-To embed an image: place the file in the screenshots folder, then replace each line above so it reads, for example, `![EKS worker nodes](screenshots/get-nodes.png)` without the surrounding backticks. GitHub will render it inline.
-
----
 
 ## Challenges and Key Learnings
 
