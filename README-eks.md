@@ -17,9 +17,7 @@ A managed Kubernetes service removes the burden of operating the control plane. 
 ---
 
 ## Architecture
-
-```
-                <img width="651" height="668" alt="EKS Cluster architecture drawio" src="https://github.com/user-attachments/assets/2cdcdc0f-f1be-448f-8bd2-7c3dbcc5d9e2" />
+<img width="651" height="668" alt="EKS Cluster architecture drawio" src="https://github.com/user-attachments/assets/42dc0ae7-5b0a-4403-80ee-c88a4958b8fb" />
 
 ```
 
