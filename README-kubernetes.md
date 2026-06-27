@@ -18,7 +18,7 @@ Following a fundamentals-first learning approach, this deployment uses K3s, a li
 
 ## Architecture
 
-<img width="1536" height="1024" alt="ChatGPT Image Jun 18, 2026, 08_53_40 AM" src="https://github.com/user-attachments/assets/2c0d5393-c129-4565-8260-ab015d52339d" />
+<img width="751" height="648" alt="K3s drawio" src="https://github.com/user-attachments/assets/694806cb-fbaf-480a-8eea-38876194dd6e" />
 
 
 ---
